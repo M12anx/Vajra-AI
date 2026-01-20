@@ -14,11 +14,19 @@ With the rapid adoption of digital payments in India, financial fraud (phishing,
 - **🗣️ Vernacular Support:** Explains *why* a message is a scam in Hindi/Regional languages.
 - **🚨 Crowdsourced Database:** Real-time fraud reporting via **Firebase**.
 
-## 🛠️ Tech Stack
-- **AI/ML:** Google Vertex AI (Gemini), Cloud Vision API
-- **Backend:** Google Cloud Functions (Python/FastAPI)
-- **Database:** Cloud Firestore
-- **Frontend:** Flutter / React Native
+## 🏗️ Tech Stack
+
+### 🚀 Current Prototype (Built for Hackathon)
+* **Frontend:** Streamlit (Python) - For rapid prototyping.
+* **AI Model:** Google Gemini 2.0 Flash (via AI Studio) - For zero-latency fraud detection.
+* **Language:** Python 3.10
+* **Tools:** VS Code, Git.
+
+### 🔮 Future Roadmap (Production Scale)
+* **Cloud Platform:** Google Cloud Vertex AI (for enterprise scaling).
+* **Backend:** Google Cloud Functions (Serverless Architecture).
+* **Database:** Cloud Firestore (Real-time fraud reporting).
+* **Mobile App:** Flutter / React Native (For cross-platform support).
 
 ---
 *🚧 Work in Progress for Hackathon Submission*
