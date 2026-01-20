@@ -2,7 +2,7 @@ from google import genai
 from google.genai import types
 
 
-API_KEY = "AIzaSyBrmSnkypBDMPGDPNtUZgMwMPHyrSDKNOA" 
+API_KEY = "your_api_key" 
 
 client = genai.Client(api_key=API_KEY)
 
@@ -29,4 +29,5 @@ try:
     print(response.text)
 
 except Exception as e:
+
     print(f"Error aaya: {e}")
